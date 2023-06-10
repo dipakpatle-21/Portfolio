@@ -754,6 +754,9 @@ footer span a:hover {
   .about .about-content .right .text {
     font-size: 19px;
   }
+  .services .serv-content .card {
+    width: 100%;
+  }
   .skills .skills-content .left .text {
     font-size: 19px;
   }
