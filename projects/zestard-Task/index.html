@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>zestcard responsive task</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" >
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" >
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" >
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" async></script>
+    <link rel="stylesheet" href="./assets/style/main.css" >
+  </head>
+  <body>
+    <header class="header text-center d-flex justify-content-center">
+      <h3 class="heading text-center text-uppercase"> Ship it Good . Free Shipping over $60 </h3>
+      <div class="header-icon text-right">
+        <span class="times">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="javascript:void(0);">
+        <img src="./assets/img/Path 8341.png" alt="logo image mobile" class="mobile-logo d-block d-lg-none">
+        <img src="./assets/img/Group 1.png" alt="logo image desktop" class="logo-desktop d-none d-lg-block">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Shop </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+              <div class="d-flex">
+                <div class="category">
+                  <span class="text-uppercase">Shop by category</span>
+                  <a class="dropdown-item text-capitalize" href="javascript:void(0);">Shop all</a>
+                  <a class="dropdown-item text-capitalize" href="javascript:void(0);">Cleansers</a>
+                  <a class="dropdown-item text-capitalize" href="javascript:void(0);">Serums</a>
+                  <a class="dropdown-item text-capitalize" href="javascript:void(0);">Mousturizers</a>
+                  <a class="dropdown-item text-capitalize" href="javascript:void(0);">Mists</a>
+                </div>
+                <div class="collection">
+                  <span class="text-uppercase">Shop by collection</span>
+                  <a class="dropdown-item text-capitalize" href="javascript:void(0);">Illuminating</a>
+                  <a class="dropdown-item text-capitalize" href="javascript:void(0);">Clearing</a>
+                  <a class="dropdown-item text-capitalize" href="javascript:void(0);">Soothing</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <div class="d-flex">
+                <div class="collection">
+                  <a class="dropdown-item text-capitalize" href="javascript:void(0);">Our Story</a>
+                  <a class="dropdown-item text-capitalize" href="javascript:void(0);">Our Promise</a>
+                  <a class="dropdown-item text-capitalize" href="javascript:void(0);">Our Beliefs</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link text-uppercase" href="javascript:void(0);">The Greenary</a>
+          </li>
+        </ul>
+      </div>
+      <div class="login-and-cart d-flex">
+        <a href="javascript:void(0);" class="searchbox">
+          <i class="fas fa-search"></i>
+        </a>
+        <a href="javascript:void(0);" class="user">
+          <i class="fas fa-user"></i>
+        </a>
+        <a href="javascript:void(0);" class="Shopping">
+          <i class="fas fa-shopping-bag"></i>
+        </a>
+      </div>
+    </nav>
+    <section class="slider">
+      <div class="slick-slider">
+        <div id="carousel" class="multiple-items">
+          <div class="item">
+            <img src="assets/img/L&L_Website_lineup1.png" alt="">
+            <div class="item-para">
+              <h6>Relief & Repair Moisturizer</h6>
+              <p>A moisturizer for dry, sensitive skin that seriously hydrates and soothes.</p>
+            </div>
+            <div class="item-btn">
+              <span>$0.00</span>
+              <button type="button" class="btn btn-secondary">
+                <span>ADD TO CART</span>
+                <i class="fas fa-greater-than"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/img/L&L_Website_lineup2.png" alt="">
+            <div class="item-para">
+              <h6>Afterglow Serum</h6>
+              <p>A glow-inducing, antioxidant-infused serum that’s gentle on skin.</p>
+            </div>
+            <div class="item-btn">
+              <span>$0.00</span>
+              <button type="button" class="btn btn-secondary">
+                <span>ADD TO CART</span>
+                <i class="fas fa-greater-than"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/img/L&L_Website_lineup3.png" alt="">
+            <div class="item-para">
+              <h6>Clean Slate Serum</h6>
+              <p>A purifying, oil free serum that clears the way for great skin.</p>
+            </div>
+            <div class="item-btn">
+              <span>$0.00</span>
+              <button type="button" class="btn btn-secondary">
+                <span>ADD TO CART</span>
+                <i class="fas fa-greater-than"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/img/L&L_Website_lineup1.png" alt="">
+            <div class="item-para">
+              <h6>Relief & Repair Moisturizer</h6>
+              <p>A moisturizer for dry, sensitive skin that seriously hydrates and soothes.</p>
+            </div>
+            <div class="item-btn">
+              <span>$0.00</span>
+              <button type="button" class="btn btn-secondary">
+                <span>ADD TO CART</span>
+                <i class="fas fa-greater-than"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/img/L&L_Website_lineup2.png" alt="">
+            <div class="item-para">
+              <h6>Afterglow Serum</h6>
+              <p>A glow-inducing, antioxidant-infused serum that’s gentle on skin.</p>
+            </div>
+            <div class="item-btn">
+              <span>$0.00</span>
+              <button type="button" class="btn btn-secondary">
+                <span>ADD TO CART</span>
+                <i class="fas fa-greater-than"></i>
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/img/L&L_Website_lineup3.png" alt="">
+            <div class="item-para">
+              <h6>Clean Slate Serum</h6>
+              <p>A purifying, oil free serum that clears the way for great skin.</p>
+            </div>
+            <div class="item-btn">
+              <span>$0.00</span>
+              <button type="button" class="btn btn-secondary">
+                <span>ADD TO CART</span>
+                <i class="fas fa-greater-th an"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-lg-start">
+      <section class="footer">
+        <div class="container-md text-md-start p-4 mt-5">
+          <div class="row mt-3 p-2">
+            <div class="col-sm-6 col-md-6 col-lg-2 mx-auto">
+              <!-- Links -->
+              <h6 class="font-weight-bold mb-3">About </h6>
+              <ul class="list-unstyled About">
+                <li class="py-1">
+                  <a href="javascript:void(0);">Our Story </a>
+                </li>
+                <li class="py-1">
+                  <a href="javascript:void(0);">Our Promise </a>
+                </li>
+                <li class="py-1">
+                  <a href="javascript:void(0);">Shopping/Returns </a>
+                </li>
+                <li class="py-1">
+                  <a href="javascript:void(0);">FAQs </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-2 mx-auto mb-md-0 mb-3">
+              <h6 class="font-weight-bold mb-3 mt-5 mt-sm-0">More Info </h6>
+              <ul class="list-unstyled Info">
+                <li class="py-1">
+                  <a href="">The Greenery </a>
+                </li>
+                <li class="py-1">
+                  <a href="">Skin Glossary </a>
+                </li>
+                <li class="py-1">
+                  <a href="">Terms of Use </a>
+                </li>
+                <li class="py-1">
+                  <a href="">Privacy Policy </a>
+                </li>
+                <li class="py-1">
+                  <a href="javascript:void(0);">COA </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-lg-4 mx-auto mb-3 get-in-touch">
+              <h6 class="font-weight-bold">Get In Touch </h6>
+              <p class="footer-para">
+                <span class="d-block">Have a question? Want to just say hello? Send us a message anytime at</span>
+                <a href="mailto:hello@lumaandleaf.com">hello@lumaandleaf.com</a>
+              </p>
+              <p>The information and products on this site have not been evaluated by the FDA. The products are not intended to Diagnose, treat, cure or prevent any disease. </p>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+              <h6 class="font-weight-bold mb-4 text-capitalize">All of the Tea. None of the Spam. </h6>
+              <div class="email-form d-flex justify-content-center mb-3">
+                <input type="email" class="email-field" placeholder="Enter Email Address">
+                <div class="input-group-append">
+                  <button type="button">
+                    <span>Sign Up</span>
+                    <i class="fas fa-greater-than"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="footer-4 d-flex mt-5">
+                <div class="footer-logo">
+                  <a href="javascript:void(0);">
+                    <img src="./assets/img/Path 8341.png" alt="logo in footer">
+                  </a>
+                </div>
+                <div class="social">
+                  <div class="social-icons">
+                    <a href="javascript:void(0);" role="button">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="javascript:void(0);" role="button">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="javascript:void(0);" role="button">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="javascript:void(0);" role="button">
+                      <i class="fab fa-pinterest"></i>
+                    </a>
+                  </div>
+                  <p>2020 Luma & Leaf. All Rights Reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
