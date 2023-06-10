@@ -801,8 +801,8 @@ footer {
 	.services {
 		.serv-content {
 			.card {
-				width: calc(50% - 10px);
-				margin-bottom: 20px;
+				width: 100%;
+				// margin: 35px;
 			}
 		}
 	}
@@ -810,7 +810,7 @@ footer {
 		.skills-content {
 			.column {
 				width: 100%;
-				margin-bottom: 35px;
+				margin-bottom: 35px;	
 			}
 		}
 	}
@@ -844,6 +844,7 @@ footer {
 		.serv-content {
 			.card {
 				width: 100%;
+				
 			}
 		}
 	}
